@@ -31,7 +31,6 @@ class Timer extends Component {
     );
   }
 
-  //clock functions
   clockTick = () => {
     this.setState(prevState => ({
       time: prevState.time+1
